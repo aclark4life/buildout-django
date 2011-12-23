@@ -11,15 +11,15 @@ recipe = djangorecipe
 
 [settings]
 recipe = collective.recipe.template
-url = http://x.aclark.net/django/1.3.x/settings.py.in
+url = http://build.pythonpackages.com/buildout/django/latest/settings.py.in
 output = project/settings.py
 
 [urls]
 recipe = collective.recipe.template
-url = http://x.aclark.net/django/1.3.x/urls.py.in
+url = http://build.pythonpackages.com/buildout/django/latest/urls.py.in
 output = project/urls.py
 
 [views]
 recipe = collective.recipe.template
-url = http://x.aclark.net/django/1.3.x/views.py.in
+url = http://build.pythonpackages.com/buildout/django/latest/views.py.in
 output = project/views.py
