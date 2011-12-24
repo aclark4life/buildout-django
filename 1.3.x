@@ -23,3 +23,4 @@ output = project/urls.py
 recipe = collective.recipe.template
 url = http://build.pythonpackages.com/buildout/django/latest/views.py.in
 output = project/views.py
+
