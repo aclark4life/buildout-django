@@ -1,7 +1,5 @@
 [buildout]
-allow-hosts = 
-    media.djangoproject.com
-    pypi.python.org
+allow-hosts = *.python.org
 extensions = buildout.bootstrap
 parts =
     django
@@ -14,15 +12,15 @@ recipe = djangorecipe
 
 [settings]
 recipe = collective.recipe.template
-url = http://build.pythonpackages.com/buildout/django/1.3.x/settings.py.in
+url = http://build.pythonpackages.com/buildout/django/settings.py.in
 output = project/settings.py
 
 [urls]
 recipe = collective.recipe.template
-url = http://build.pythonpackages.com/buildout/django/1.3.x/urls.py.in
+url = http://build.pythonpackages.com/buildout/django/urls.py.in
 output = project/urls.py
 
 [views]
 recipe = collective.recipe.template
-url = http://build.pythonpackages.com/buildout/django/1.3.x/views.py.in
+url = http://build.pythonpackages.com/buildout/django/views.py.in
 output = project/views.py
