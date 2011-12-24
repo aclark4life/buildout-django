@@ -1,5 +1,7 @@
 [buildout]
-allow-hosts = *.python.org
+allow-hosts = 
+    media.djangoproject.com
+    pypi.python.org
 extensions = buildout.bootstrap
 parts =
     django
