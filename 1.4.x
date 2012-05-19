@@ -19,3 +19,6 @@ output = project/urls.py
 recipe = collective.recipe.template
 url = http://pythonpackages.com/buildout/django/latest/conf/views.py.in
 output = project/views.py
+
+[versions]
+Django = 1.4
