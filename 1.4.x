@@ -1,6 +1,11 @@
 [buildout]
+allow-hosts = *.python.org
 extensions = buildout.bootstrap
-parts = django settings urls views
+parts =
+    django
+    settings
+    urls
+    views
 
 [django]
 recipe = djangorecipe
@@ -21,4 +26,4 @@ url = http://pythonpackages.com/buildout/django/conf/views.py.in
 output = project/views.py
 
 [versions]
-Django = 1.4
+Django = 1.4.1
