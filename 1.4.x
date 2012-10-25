@@ -8,6 +8,7 @@ parts =
     views
 
 [django]
+eggs = Django
 recipe = djangorecipe
 
 [settings]
