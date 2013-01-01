@@ -1,6 +1,6 @@
 [buildout]
 auto-checkout = *
-extends = http://pythonpackages.com/buildout/django/1.4.x
+extends = https://raw.github.com/pythonpackages/buildout-django/master/1.4.x
 extensions = mr.developer
 parts += omelette
 
